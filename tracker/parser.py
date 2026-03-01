@@ -77,21 +77,26 @@ def _extract_title(container: Tag) -> Optional[str]:
 def parse_thread_items(html: str) -> list[dict[str, Optional[int]]]:
     soup = BeautifulSoup(html, "html.parser")
     items = []
-    for container in _candidate_containers(soup):
+    for index, container in enumerate(_candidate_containers(soup)):
         title = _extract_title(container)
         if not title:
             continue
         views = extract_views(container)
-        items.append({"title": title, "views": views})
+        items.append({"title": title, "views": views, "position": index})
     return items
 
 
-def find_views_by_titles(html: str, titles: Iterable[str]) -> dict[str, Optional[int]]:
+def find_views_by_titles(
+    html: str, titles: Iterable[str]
+) -> dict[str, dict[str, Optional[int]]]:
     normalized_targets = {normalize_title(t): t for t in titles}
-    results: dict[str, Optional[int]] = {}
+    results: dict[str, dict[str, Optional[int]]] = {}
     for item in parse_thread_items(html):
         title = normalize_title(item["title"])
         if title in normalized_targets:
             original = normalized_targets[title]
-            results[original] = item.get("views")
+            results[original] = {
+                "views": item.get("views"),
+                "position": item.get("position"),
+            }
     return results

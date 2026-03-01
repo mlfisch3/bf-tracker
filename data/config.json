@@ -1,5 +1,14 @@
 {
   "schema_version": 1,
+  "tracker": {
+    "state": "stopped",
+    "interval_minutes": 30,
+    "start_immediately": true,
+    "run_on_next": false,
+    "force_run": false,
+    "force_thread_ids": [],
+    "kill_switch": false
+  },
   "global": {
     "max_requests_per_minute": 12,
     "min_delay_seconds": 3,

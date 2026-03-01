@@ -31,6 +31,7 @@ class SubforumConfig:
 @dataclass
 class AppConfig:
     schema_version: int
+    tracker: dict[str, Any]
     global_config: GlobalConfig
     subforums: list[SubforumConfig]
 
@@ -51,6 +52,7 @@ def _save_json(path: Path, payload: dict[str, Any]) -> None:
 
 def load_config(path: Path = CONFIG_PATH) -> AppConfig:
     raw = _load_json(path)
+    tracker = raw.get("tracker", {})
     global_raw = raw.get("global", {})
     global_cfg = GlobalConfig(
         max_requests_per_minute=int(global_raw.get("max_requests_per_minute", 12)),
@@ -69,6 +71,7 @@ def load_config(path: Path = CONFIG_PATH) -> AppConfig:
     ]
     return AppConfig(
         schema_version=int(raw.get("schema_version", 1)),
+        tracker=tracker,
         global_config=global_cfg,
         subforums=subforums,
     )

@@ -20,11 +20,15 @@ def thread_id_for(title: str, subforum_key: str) -> str:
     return f"{safe}-{digest}" if safe else digest
 
 
-def append_sample(thread_id: str, title: str, views: int) -> dict[str, Any]:
+def append_sample(
+    thread_id: str, title: str, views: int, page: int | None, above: int | None
+) -> dict[str, Any]:
     payload = load_samples(thread_id)
     payload.setdefault("thread_id", thread_id)
     payload.setdefault("title", title)
     payload.setdefault("samples", [])
-    payload["samples"].append({"ts": utc_now(), "views": views})
+    payload["samples"].append(
+        {"ts": utc_now(), "views": views, "page": page, "above": above}
+    )
     save_samples(thread_id, payload)
     return payload
