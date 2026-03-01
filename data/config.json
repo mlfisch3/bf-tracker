@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "global": {
+    "max_requests_per_minute": 12,
+    "min_delay_seconds": 3,
+    "max_delay_seconds": 9,
+    "max_retries": 2
+  },
+  "subforums": [
+    {
+      "key": "buck-knives-for-sale.798",
+      "name": "Buck Knives For Sale",
+      "url": "https://www.bladeforums.com/forums/buck-knives-for-sale.798/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "busse-swamprat-scrapyard-knives-for-sale.804",
+      "name": "Busse / Swamprat / Scrapyard Knives For Sale",
+      "url": "https://www.bladeforums.com/forums/busse-swamprat-scrapyard-knives-for-sale.804/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "chris-reeve-knives-for-sale.916",
+      "name": "Chris Reeve Knives For Sale",
+      "url": "https://www.bladeforums.com/forums/chris-reeve-knives-for-sale.916/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "carothers-performance-knives-for-sale.967",
+      "name": "Carothers Performance Knives For Sale",
+      "url": "https://www.bladeforums.com/forums/carothers-performance-knives-for-sale.967/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-fixed-blades-individual.891",
+      "name": "For Sale: Fixed Blades (Individual)",
+      "url": "https://www.bladeforums.com/forums/for-sale-fixed-blades-individual.891/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-folding-knives-individual.892",
+      "name": "For Sale: Folding Knives (Individual)",
+      "url": "https://www.bladeforums.com/forums/for-sale-folding-knives-individual.892/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-automatic-knives-individual.759",
+      "name": "For Sale: Automatic Knives (Individual)",
+      "url": "https://www.bladeforums.com/forums/for-sale-automatic-knives-individual.759/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-axes-hatchets-tomahawks.927",
+      "name": "For Sale: Axes, Hatchets & Tomahawks",
+      "url": "https://www.bladeforums.com/forums/for-sale-axes-hatchets-tomahawks.927/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-traditionals-slipjoints-old-timey.875",
+      "name": "For Sale: Traditionals, Slipjoints, \"Old Timey\"",
+      "url": "https://www.bladeforums.com/forums/for-sale-traditionals-slipjoints-old-timey.875/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-custom-knives-individual.748",
+      "name": "For Sale: Custom Knives (Individual)",
+      "url": "https://www.bladeforums.com/forums/for-sale-custom-knives-individual.748/",
+      "max_pages_per_update": 3
+    },
+    {
+      "key": "for-sale-gadgets-gear-individual.764",
+      "name": "For Sale: Gadgets & Gear (Individual)",
+      "url": "https://www.bladeforums.com/forums/for-sale-gadgets-gear-individual.764/",
+      "max_pages_per_update": 3
+    }
+  ]
+}

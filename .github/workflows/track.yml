@@ -1,0 +1,42 @@
+name: Track BladeForums Views
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tracker
+        run: |
+          python -m tracker.runner
+
+      - name: Commit data updates
+        run: |
+          git config user.name "bf-tracker-bot"
+          git config user.email "bf-tracker-bot@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add data/
+          git commit -m "Update tracking data"
+          git push
