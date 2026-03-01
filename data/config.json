@@ -1,9 +1,9 @@
 {
   "global": {
-    "max_delay_seconds": 9,
+    "max_delay_seconds": 9.0,
     "max_requests_per_minute": 12,
     "max_retries": 2,
-    "min_delay_seconds": 3
+    "min_delay_seconds": 3.0
   },
   "schema_version": 1,
   "subforums": [
@@ -75,10 +75,8 @@
     }
   ],
   "tracker": {
-    "force_run": true,
-    "force_thread_ids": [
-      "benchmade-mini-infidel---lnib-e430f7ba16f6"
-    ],
+    "force_run": false,
+    "force_thread_ids": [],
     "interval_minutes": 30,
     "kill_switch": false,
     "run_on_next": false,

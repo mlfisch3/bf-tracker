@@ -1,7 +1,10 @@
 {
   "errors": [],
-  "finished_at": "2026-03-01T06:48:00.922548+00:00",
-  "started_at": "2026-03-01T06:47:56.766503+00:00",
+  "finished_at": "2026-03-01T07:21:38.597377+00:00",
+  "kill_switch": false,
+  "next_run_at": null,
+  "started_at": "2026-03-01T07:21:31.360602+00:00",
+  "state": "stopped",
   "threads_checked": 1,
   "threads_found": 1
 }
