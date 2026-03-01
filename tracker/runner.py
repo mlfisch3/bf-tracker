@@ -36,6 +36,7 @@ def load_last_run() -> dict[str, Any]:
 
 
 def should_run(tracker_cfg: dict[str, Any], last_run: dict[str, Any]) -> bool:
+    # Ad hoc updates can run even if the tracker is paused/stopped.
     if tracker_cfg.get("kill_switch"):
         return False
     if tracker_cfg.get("force_run"):
