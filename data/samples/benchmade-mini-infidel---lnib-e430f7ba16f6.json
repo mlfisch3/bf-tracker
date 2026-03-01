@@ -1,5 +1,10 @@
 {
-  "samples": [],
+  "samples": [
+    {
+      "ts": "2026-03-01T06:20:21.891459+00:00",
+      "views": 245
+    }
+  ],
   "thread_id": "benchmade-mini-infidel---lnib-e430f7ba16f6",
   "title": "Benchmade Mini Infidel - LNIB"
 }
