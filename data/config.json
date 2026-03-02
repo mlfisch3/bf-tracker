@@ -79,8 +79,8 @@
     "force_thread_ids": [],
     "interval_minutes": 30,
     "kill_switch": false,
-    "run_on_next": true,
+    "run_on_next": false,
     "start_immediately": true,
-    "state": "running"
+    "state": "stopped"
   }
 }
