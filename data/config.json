@@ -75,12 +75,12 @@
     }
   ],
   "tracker": {
-    "force_run": true,
+    "force_run": false,
     "force_thread_ids": [],
     "interval_minutes": 30,
     "kill_switch": false,
     "run_on_next": true,
-    "start_immediately": true,
+    "start_immediately": false,
     "state": "running"
   }
 }
