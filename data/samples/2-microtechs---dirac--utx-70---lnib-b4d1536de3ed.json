@@ -1,5 +1,12 @@
 {
-  "samples": [],
+  "samples": [
+    {
+      "above": 3,
+      "page": 1,
+      "ts": "2026-03-02T10:11:32.208824+00:00",
+      "views": 79
+    }
+  ],
   "thread_id": "2-microtechs---dirac--utx-70---lnib-b4d1536de3ed",
   "title": "2 Microtechs - Dirac & UTX-70 - LNIB"
 }

@@ -1,5 +1,12 @@
 {
-  "samples": [],
+  "samples": [
+    {
+      "above": 7,
+      "page": 2,
+      "ts": "2026-03-02T10:11:38.557032+00:00",
+      "views": 286
+    }
+  ],
   "thread_id": "benchmade-mini-infidel---lnib-price-drop-affe654dd19a",
   "title": "Benchmade Mini Infidel - LNIB (PRICE DROP)"
 }
