@@ -1,10 +1,10 @@
 {
   "errors": [],
-  "finished_at": "2026-03-02T07:51:23.232274+00:00",
+  "finished_at": "2026-03-02T08:05:18.516670+00:00",
   "kill_switch": false,
   "next_run_at": null,
   "note": "Tracker idle. Waiting for next interval or manual run.",
-  "started_at": "2026-03-02T07:51:23.232262+00:00",
+  "started_at": "2026-03-02T08:05:18.516656+00:00",
   "state": "stopped",
   "threads_checked": 0,
   "threads_found": 0
