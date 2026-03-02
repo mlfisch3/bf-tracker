@@ -1,9 +1,9 @@
 {
   "errors": [],
-  "finished_at": "2026-03-02T15:06:02.331840+00:00",
+  "finished_at": "2026-03-02T15:26:12.723092+00:00",
   "kill_switch": false,
-  "next_run_at": "2026-03-02T15:11:02.331840+00:00",
-  "started_at": "2026-03-02T15:05:07.445913+00:00",
+  "next_run_at": "2026-03-02T15:31:12.723092+00:00",
+  "started_at": "2026-03-02T15:25:22.609842+00:00",
   "state": "running",
   "threads_checked": 10,
   "threads_found": 4
