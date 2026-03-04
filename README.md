@@ -1,6 +1,6 @@
 # BladeForums Thread View Tracker (Tracker Service)
 
-This repository contains the always-on tracker service for monitoring view counts on BladeForums threads. It runs on a schedule via GitHub Actions and writes time-series data to the `data/` directory.
+This repository contains the tracker service logic and shared data for monitoring view counts on BladeForums threads. The primary runtime is the Streamlit UI session engine in `bf-ui`, which writes updates here.
 
 ## What this does
 
@@ -30,7 +30,7 @@ Edit `data/config.json` and `data/threads.json` to control tracking targets and 
 
 ## GitHub Actions
 
-The workflow runs every 30 minutes by default (UTC). It can also be triggered manually.
+Tracking is no longer scheduled from GitHub Actions. The `track.yml` workflow is manual-only and retained for fallback/debug usage.
 
 ## Notes
 
