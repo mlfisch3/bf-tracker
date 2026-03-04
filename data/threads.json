@@ -4,55 +4,75 @@
     {
       "created_at": "2026-03-02T09:58:29.028394+00:00",
       "id": "2-microtechs---dirac--utx-70---lnib-b4d1536de3ed",
+      "include_in_adhoc": true,
       "last_found_above": 12,
       "last_found_page": 1,
       "last_seen_at": "2026-03-03T18:02:11.588658+00:00",
       "last_view_count": 364,
+      "order": 0,
       "status": "active",
       "subforum_key": "for-sale-automatic-knives-individual.759",
-      "title": "2 Microtechs - Dirac & UTX-70 - LNIB"
+      "title": "2 Microtechs - Dirac & UTX-70 - LNIB",
+      "title_color_map": {},
+      "title_history": []
     },
     {
       "created_at": "2026-03-02T10:01:11.407256+00:00",
       "id": "creely-blades---mako-pg-series---magnacu-36c5cbdbf858",
+      "include_in_adhoc": true,
       "last_found_above": 14,
       "last_found_page": 1,
       "last_seen_at": "2026-03-04T04:11:18.046905+00:00",
       "last_seen_title": "Creely Blades Mako PG (Magnacut & G10)",
       "last_view_count": 350,
+      "order": 1,
       "status": "active",
       "subforum_key": "for-sale-fixed-blades-individual.891",
       "thread_numeric_id": "2067309",
-      "title": "Creely Blades - Mako PG Series - Magnacut - LNIB"
+      "title": "Creely Blades - Mako PG Series - Magnacut - LNIB",
+      "title_color_map": {},
+      "title_history": []
     },
     {
       "created_at": "2026-03-02T10:05:03.123950+00:00",
       "id": "benchmade-mini-infidel---lnib-price-drop-affe654dd19a",
+      "include_in_adhoc": true,
       "last_found_above": 6,
       "last_found_page": 2,
       "last_seen_at": "2026-03-02T16:43:47.045407+00:00",
       "last_view_count": 314,
+      "order": 2,
       "status": "active",
       "subforum_key": "for-sale-automatic-knives-individual.759",
-      "title": "Benchmade Mini Infidel - LNIB (PRICE DROP)"
+      "title": "Benchmade Mini Infidel - LNIB (PRICE DROP)",
+      "title_color_map": {},
+      "title_history": []
     },
     {
       "created_at": "2026-03-02T10:05:49.490322+00:00",
       "id": "flashlight---olight-baton-4-premium-edit-df58d17c255b",
+      "include_in_adhoc": true,
       "last_found_above": 19,
       "last_found_page": 2,
       "last_seen_at": "2026-03-03T01:28:23.173714+00:00",
       "last_view_count": 274,
+      "order": 3,
       "status": "active",
       "subforum_key": "for-sale-gadgets-gear-individual.764",
-      "title": "Flashlight - Olight Baton 4 Premium Edition (OD Green) - New (sealed in box)"
+      "title": "Flashlight - Olight Baton 4 Premium Edition (OD Green) - New (sealed in box)",
+      "title_color_map": {},
+      "title_history": []
     },
     {
       "created_at": "2026-03-02T10:06:57.869521+00:00",
       "id": "spyderco-dodo---satin-m4--jade-g-10---ln-ead1efceee12",
+      "include_in_adhoc": true,
+      "order": 4,
       "status": "active",
       "subforum_key": "for-sale-folding-knives-individual.892",
-      "title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB (PRICE DROP)"
+      "title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB (PRICE DROP)",
+      "title_color_map": {},
+      "title_history": []
     }
   ]
 }
