@@ -49,6 +49,17 @@
       "title_history": []
     },
     {
+      "created_at": "2026-03-02T10:06:57.869521+00:00",
+      "id": "spyderco-dodo---satin-m4--jade-g-10---ln-ead1efceee12",
+      "include_in_adhoc": true,
+      "order": 3,
+      "status": "active",
+      "subforum_key": "for-sale-folding-knives-individual.892",
+      "title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB (PRICE DROP)",
+      "title_color_map": {},
+      "title_history": []
+    },
+    {
       "created_at": "2026-03-02T10:05:49.490322+00:00",
       "id": "flashlight---olight-baton-4-premium-edit-df58d17c255b",
       "include_in_adhoc": true,
@@ -56,21 +67,10 @@
       "last_found_page": 2,
       "last_seen_at": "2026-03-03T01:28:23.173714+00:00",
       "last_view_count": 274,
-      "order": 3,
+      "order": 4,
       "status": "active",
       "subforum_key": "for-sale-gadgets-gear-individual.764",
       "title": "Flashlight - Olight Baton 4 Premium Edition (OD Green) - New (sealed in box)",
-      "title_color_map": {},
-      "title_history": []
-    },
-    {
-      "created_at": "2026-03-02T10:06:57.869521+00:00",
-      "id": "spyderco-dodo---satin-m4--jade-g-10---ln-ead1efceee12",
-      "include_in_adhoc": true,
-      "order": 4,
-      "status": "active",
-      "subforum_key": "for-sale-folding-knives-individual.892",
-      "title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB (PRICE DROP)",
       "title_color_map": {},
       "title_history": []
     }
