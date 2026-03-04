@@ -3,36 +3,49 @@
   "threads": [
     {
       "created_at": "2026-03-02T10:01:11.407256+00:00",
+      "current_title": "Creely Blades Mako PG (Magnacut & G10)",
+      "current_title_color": "#1f77b4",
       "id": "creely-blades---mako-pg-series---magnacu-36c5cbdbf858",
       "include_in_adhoc": true,
       "last_found_above": 14,
       "last_found_page": 1,
-      "last_seen_at": "2026-03-04T04:11:18.046905+00:00",
+      "last_seen_at": "2026-03-04T06:23:34.979771+00:00",
       "last_seen_title": "Creely Blades Mako PG (Magnacut & G10)",
-      "last_view_count": 350,
+      "last_view_count": 354,
       "order": 0,
       "status": "active",
       "subforum_key": "for-sale-fixed-blades-individual.891",
       "thread_numeric_id": "2067309",
       "title": "Creely Blades - Mako PG Series - Magnacut - LNIB",
-      "title_color_map": {},
-      "title_history": []
+      "title_color_map": {
+        "Creely Blades Mako PG (Magnacut & G10)": "#1f77b4"
+      },
+      "title_history": [
+        "Creely Blades Mako PG (Magnacut & G10)"
+      ]
     },
     {
       "created_at": "2026-03-02T09:58:29.028394+00:00",
+      "current_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+      "current_title_color": "#1f77b4",
       "id": "2-microtechs---dirac--utx-70---lnib-b4d1536de3ed",
       "include_in_adhoc": true,
-      "last_found_above": 12,
+      "last_found_above": 13,
       "last_found_page": 1,
-      "last_seen_at": "2026-03-03T18:02:11.588658+00:00",
-      "last_view_count": 364,
+      "last_seen_at": "2026-03-04T06:23:43.850794+00:00",
+      "last_seen_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+      "last_view_count": 399,
       "order": 1,
       "status": "active",
       "subforum_key": "for-sale-automatic-knives-individual.759",
       "thread_numeric_id": "2067308",
       "title": "2 Microtechs - Dirac & UTX-70 - LNIB",
-      "title_color_map": {},
-      "title_history": []
+      "title_color_map": {
+        "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB": "#1f77b4"
+      },
+      "title_history": [
+        "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB"
+      ]
     },
     {
       "created_at": "2026-03-02T10:05:03.123950+00:00",
