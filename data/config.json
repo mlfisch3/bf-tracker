@@ -81,6 +81,6 @@
     "kill_switch": false,
     "run_on_next": false,
     "start_immediately": true,
-    "state": "paused"
+    "state": "stopped"
   }
 }
