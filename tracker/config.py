@@ -56,8 +56,8 @@ def load_config(path: Path = CONFIG_PATH) -> AppConfig:
     global_raw = raw.get("global", {})
     global_cfg = GlobalConfig(
         max_requests_per_minute=int(global_raw.get("max_requests_per_minute", 12)),
-        min_delay_seconds=float(global_raw.get("min_delay_seconds", 3)),
-        max_delay_seconds=float(global_raw.get("max_delay_seconds", 9)),
+        min_delay_seconds=float(global_raw.get("min_delay_seconds", 0.2)),
+        max_delay_seconds=float(global_raw.get("max_delay_seconds", 1.0)),
         max_retries=int(global_raw.get("max_retries", 2)),
     )
     subforums = [
