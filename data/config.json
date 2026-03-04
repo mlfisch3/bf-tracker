@@ -1,7 +1,7 @@
 {
   "global": {
     "max_delay_seconds": 9.0,
-    "max_requests_per_minute": 30,
+    "max_requests_per_minute": 12,
     "max_retries": 2,
     "min_delay_seconds": 3.0
   },
