@@ -25,6 +25,11 @@
       "level": "info",
       "message": "Run started (interval)",
       "ts": "2026-03-04T04:16:24.621410+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Tracker state changed to paused",
+      "ts": "2026-03-04T04:16:51.535743+00:00"
     }
   ],
   "last_run_finished_at": "2026-03-04T04:11:18.046957+00:00",
@@ -39,5 +44,5 @@
     "started_at": "2026-03-04T04:11:10.292893+00:00",
     "updated_threads": 1
   },
-  "next_run_at": "2026-03-04T04:16:18.047212+00:00"
+  "next_run_at": null
 }
