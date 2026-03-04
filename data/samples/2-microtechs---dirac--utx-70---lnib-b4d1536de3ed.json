@@ -545,8 +545,17 @@
       "page": 1,
       "ts": "2026-03-03T18:02:11.587926+00:00",
       "views": 364
+    },
+    {
+      "above": 13,
+      "observed_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+      "page": 1,
+      "title_color": "#1f77b4",
+      "ts": "2026-03-04T06:23:43.850815+00:00",
+      "views": 399
     }
   ],
   "thread_id": "2-microtechs---dirac--utx-70---lnib-b4d1536de3ed",
-  "title": "2 Microtechs - Dirac & UTX-70 - LNIB"
+  "thread_numeric_id": "2067308",
+  "title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB"
 }
