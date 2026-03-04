@@ -10,7 +10,7 @@ import requests
 
 from .config import DATA_DIR, get_subforum_map, load_config, load_threads, save_threads, _save_json
 from .fetcher import FetchError, fetch_page
-from .parser import find_views_by_titles, normalize_title
+from .parser import find_views_by_thread_numeric_ids, find_views_by_titles, normalize_title
 from .rate_limit import RateLimiter
 from .storage import append_sample, thread_id_for
 
@@ -75,7 +75,8 @@ def ensure_thread_ids(threads_payload: dict[str, Any]) -> bool:
     changed = False
     for thread in threads_payload.get("threads", []):
         if not thread.get("id"):
-            thread_id = thread_id_for(thread["title"], thread["subforum_key"])
+            thread_basis = thread.get("thread_numeric_id") or thread.get("title", "")
+            thread_id = thread_id_for(str(thread_basis), thread["subforum_key"])
             thread["id"] = thread_id
             thread.setdefault("created_at", utc_now())
             changed = True
@@ -156,9 +157,11 @@ def run() -> None:
             )
             continue
         target_titles = [t["title"] for t in threads]
+        target_numeric_ids = [str(t.get("thread_numeric_id")) for t in threads if t.get("thread_numeric_id")]
         remaining = set(normalize_title(t) for t in target_titles)
+        remaining_numeric = set(target_numeric_ids)
         for page in range(1, subforum.max_pages_per_update + 1):
-            if not remaining:
+            if not remaining and not remaining_numeric:
                 break
             url = build_page_url(subforum.url, page)
             try:
@@ -173,15 +176,35 @@ def run() -> None:
                     {"subforum_key": subforum_key, "error": str(exc)}
                 )
                 break
+            found_by_id = (
+                find_views_by_thread_numeric_ids(html, target_numeric_ids) if target_numeric_ids else {}
+            )
             found = find_views_by_titles(html, target_titles)
             for thread in threads:
                 title = thread["title"]
-                if normalize_title(title) not in remaining:
+                numeric_id = str(thread.get("thread_numeric_id")) if thread.get("thread_numeric_id") else None
+                by_id_hit = numeric_id and numeric_id in found_by_id
+                by_title_hit = normalize_title(title) in remaining and title in found
+
+                if by_id_hit and found_by_id[numeric_id].get("views") is not None:
+                    views = int(found_by_id[numeric_id]["views"])
+                    position = found_by_id[numeric_id].get("position")
+                    append_sample(thread["id"], title, views, page, position, numeric_id)
+                    thread["last_seen_at"] = utc_now()
+                    thread["last_view_count"] = views
+                    thread["last_found_page"] = page
+                    thread["last_found_above"] = position
+                    if found_by_id[numeric_id].get("title"):
+                        thread["last_seen_title"] = found_by_id[numeric_id]["title"]
+                    run_summary["threads_found"] += 1
+                    remaining_numeric.discard(numeric_id)
+                    remaining.discard(normalize_title(title))
                     continue
-                if title in found and found[title].get("views") is not None:
+
+                if by_title_hit and found[title].get("views") is not None:
                     views = int(found[title]["views"])
                     position = found[title].get("position")
-                    append_sample(thread["id"], title, views, page, position)
+                    append_sample(thread["id"], title, views, page, position, numeric_id)
                     thread["last_seen_at"] = utc_now()
                     thread["last_view_count"] = views
                     thread["last_found_page"] = page

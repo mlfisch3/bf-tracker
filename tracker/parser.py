@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup, Tag
 
 
 _THREAD_LINK_RE = re.compile(r"/threads/")
+_THREAD_NUMERIC_ID_RE = re.compile(r"/threads/[^/]*\.(\d+)(?:/|$)")
 
 
 def normalize_title(text: str) -> str:
@@ -74,6 +75,19 @@ def _extract_title(container: Tag) -> Optional[str]:
     return title or None
 
 
+def _extract_thread_numeric_id(container: Tag) -> Optional[str]:
+    link = container.select_one(".structItem-title a[href*='/threads/']")
+    if link is None:
+        link = container.find("a", href=_THREAD_LINK_RE)
+    if link is None:
+        return None
+    href = str(link.get("href") or "")
+    match = _THREAD_NUMERIC_ID_RE.search(href)
+    if not match:
+        return None
+    return match.group(1)
+
+
 def parse_thread_items(html: str) -> list[dict[str, Optional[int]]]:
     soup = BeautifulSoup(html, "html.parser")
     items = []
@@ -81,8 +95,16 @@ def parse_thread_items(html: str) -> list[dict[str, Optional[int]]]:
         title = _extract_title(container)
         if not title:
             continue
+        thread_numeric_id = _extract_thread_numeric_id(container)
         views = extract_views(container)
-        items.append({"title": title, "views": views, "position": index})
+        items.append(
+            {
+                "title": title,
+                "thread_numeric_id": thread_numeric_id,
+                "views": views,
+                "position": index,
+            }
+        )
     return items
 
 
@@ -99,4 +121,21 @@ def find_views_by_titles(
                 "views": item.get("views"),
                 "position": item.get("position"),
             }
+    return results
+
+
+def find_views_by_thread_numeric_ids(
+    html: str, numeric_ids: Iterable[str]
+) -> dict[str, dict[str, Optional[int]]]:
+    target_ids = {str(x) for x in numeric_ids}
+    results: dict[str, dict[str, Optional[int]]] = {}
+    for item in parse_thread_items(html):
+        numeric_id = item.get("thread_numeric_id")
+        if not numeric_id or str(numeric_id) not in target_ids:
+            continue
+        results[str(numeric_id)] = {
+            "views": item.get("views"),
+            "position": item.get("position"),
+            "title": item.get("title"),
+        }
     return results

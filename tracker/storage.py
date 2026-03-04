@@ -21,11 +21,18 @@ def thread_id_for(title: str, subforum_key: str) -> str:
 
 
 def append_sample(
-    thread_id: str, title: str, views: int, page: int | None, above: int | None
+    thread_id: str,
+    title: str,
+    views: int,
+    page: int | None,
+    above: int | None,
+    thread_numeric_id: str | None = None,
 ) -> dict[str, Any]:
     payload = load_samples(thread_id)
     payload.setdefault("thread_id", thread_id)
     payload.setdefault("title", title)
+    if thread_numeric_id:
+        payload["thread_numeric_id"] = str(thread_numeric_id)
     payload.setdefault("samples", [])
     payload["samples"].append(
         {"ts": utc_now(), "views": views, "page": page, "above": above}
