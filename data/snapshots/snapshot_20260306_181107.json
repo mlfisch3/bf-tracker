@@ -1,0 +1,373 @@
+{
+  "catalog": {
+    "schema_version": 1,
+    "threads": [
+      {
+        "created_at": "2026-03-05T21:05:05.815953+00:00",
+        "current_title": "Creely Blades Mako PG (Magnacut & G10)",
+        "display_name": null,
+        "id": "creely-blades---mako-pg-series---magnacu-36c5cbdbf858",
+        "include_in_adhoc": true,
+        "last_seen_title": "Creely Blades Mako PG (Magnacut & G10)",
+        "status": "active",
+        "subforum_key": "for-sale-fixed-blades-individual.891",
+        "thread_numeric_id": "2067309"
+      },
+      {
+        "created_at": "2026-03-05T21:05:05.815980+00:00",
+        "current_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+        "display_name": null,
+        "id": "2-microtechs---dirac--utx-70---lnib-b4d1536de3ed",
+        "include_in_adhoc": true,
+        "last_seen_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+        "status": "active",
+        "subforum_key": "for-sale-automatic-knives-individual.759",
+        "thread_numeric_id": "2067308"
+      },
+      {
+        "created_at": "2026-03-05T21:05:05.815987+00:00",
+        "current_title": null,
+        "display_name": null,
+        "id": "benchmade-mini-infidel---lnib-price-drop-affe654dd19a",
+        "include_in_adhoc": true,
+        "last_seen_title": null,
+        "status": "paused",
+        "subforum_key": "for-sale-automatic-knives-individual.759",
+        "thread_numeric_id": null
+      },
+      {
+        "created_at": "2026-03-05T21:05:05.815993+00:00",
+        "current_title": null,
+        "display_name": null,
+        "id": "flashlight---olight-baton-4-premium-edit-df58d17c255b",
+        "include_in_adhoc": true,
+        "last_seen_title": null,
+        "status": "paused",
+        "subforum_key": "for-sale-gadgets-gear-individual.764",
+        "thread_numeric_id": null
+      },
+      {
+        "created_at": "2026-03-05T21:05:05.815998+00:00",
+        "current_title": null,
+        "display_name": null,
+        "id": "spyderco-dodo---satin-m4--jade-g-10---ln-ead1efceee12",
+        "include_in_adhoc": true,
+        "last_seen_title": null,
+        "status": "active",
+        "subforum_key": "for-sale-folding-knives-individual.892",
+        "thread_numeric_id": "2066634"
+      }
+    ]
+  },
+  "config": {
+    "global": {
+      "max_delay_seconds": 3.0,
+      "max_requests_per_minute": 30,
+      "max_retries": 2,
+      "min_delay_seconds": 1.0
+    },
+    "schema_version": 1,
+    "subforums": [
+      {
+        "key": "buck-knives-for-sale.798",
+        "max_pages_per_update": 3,
+        "name": "Buck Knives For Sale",
+        "url": "https://www.bladeforums.com/forums/buck-knives-for-sale.798/"
+      },
+      {
+        "key": "busse-swamprat-scrapyard-knives-for-sale.804",
+        "max_pages_per_update": 3,
+        "name": "Busse / Swamprat / Scrapyard Knives For Sale",
+        "url": "https://www.bladeforums.com/forums/busse-swamprat-scrapyard-knives-for-sale.804/"
+      },
+      {
+        "key": "chris-reeve-knives-for-sale.916",
+        "max_pages_per_update": 3,
+        "name": "Chris Reeve Knives For Sale",
+        "url": "https://www.bladeforums.com/forums/chris-reeve-knives-for-sale.916/"
+      },
+      {
+        "key": "carothers-performance-knives-for-sale.967",
+        "max_pages_per_update": 3,
+        "name": "Carothers Performance Knives For Sale",
+        "url": "https://www.bladeforums.com/forums/carothers-performance-knives-for-sale.967/"
+      },
+      {
+        "key": "for-sale-fixed-blades-individual.891",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Fixed Blades (Individual)",
+        "url": "https://www.bladeforums.com/forums/for-sale-fixed-blades-individual.891/"
+      },
+      {
+        "key": "for-sale-folding-knives-individual.892",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Folding Knives (Individual)",
+        "url": "https://www.bladeforums.com/forums/for-sale-folding-knives-individual.892/"
+      },
+      {
+        "key": "for-sale-automatic-knives-individual.759",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Automatic Knives (Individual)",
+        "url": "https://www.bladeforums.com/forums/for-sale-automatic-knives-individual.759/"
+      },
+      {
+        "key": "for-sale-axes-hatchets-tomahawks.927",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Axes, Hatchets & Tomahawks",
+        "url": "https://www.bladeforums.com/forums/for-sale-axes-hatchets-tomahawks.927/"
+      },
+      {
+        "key": "for-sale-traditionals-slipjoints-old-timey.875",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Traditionals, Slipjoints, \"Old Timey\"",
+        "url": "https://www.bladeforums.com/forums/for-sale-traditionals-slipjoints-old-timey.875/"
+      },
+      {
+        "key": "for-sale-custom-knives-individual.748",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Custom Knives (Individual)",
+        "url": "https://www.bladeforums.com/forums/for-sale-custom-knives-individual.748/"
+      },
+      {
+        "key": "for-sale-gadgets-gear-individual.764",
+        "max_pages_per_update": 3,
+        "name": "For Sale: Gadgets & Gear (Individual)",
+        "url": "https://www.bladeforums.com/forums/for-sale-gadgets-gear-individual.764/"
+      }
+    ],
+    "tracker": {
+      "force_run": false,
+      "force_thread_ids": [],
+      "interval_minutes": 1,
+      "interval_seconds": 30,
+      "kill_switch": false,
+      "run_on_next": false,
+      "start_immediately": true,
+      "state": "paused"
+    }
+  },
+  "runtime": {
+    "current_action": "paused",
+    "events": [
+      {
+        "level": "info",
+        "message": "Run started (interval)",
+        "ts": "2026-03-04T04:05:42.900032+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-04T04:05:53.263471+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (interval)",
+        "ts": "2026-03-04T04:11:09.592602+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-04T04:11:18.047226+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (interval)",
+        "ts": "2026-03-04T04:16:24.621410+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Tracker state changed to paused",
+        "ts": "2026-03-04T04:16:51.535743+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Tracker state changed to stopped",
+        "ts": "2026-03-04T05:48:33.053750+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (adhoc_all_active)",
+        "ts": "2026-03-04T06:23:29.921060+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-04T06:23:43.851179+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (adhoc_selected)",
+        "ts": "2026-03-04T07:02:24.116081+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-04T07:02:53.517130+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Tracker state changed to running",
+        "ts": "2026-03-04T07:17:29.769788+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (start_immediate)",
+        "ts": "2026-03-04T07:17:29.769812+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-04T07:18:04.555957+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Tracker state changed to running",
+        "ts": "2026-03-04T07:18:32.581710+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (start_immediate)",
+        "ts": "2026-03-04T07:18:32.581748+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-04T07:19:13.276889+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (adhoc_selected)",
+        "ts": "2026-03-06T23:04:15.948270+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-06T23:04:35.813370+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Tracker state changed to running",
+        "ts": "2026-03-06T23:07:13.129847+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run started (toggle_running_immediate)",
+        "ts": "2026-03-06T23:07:13.129884+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Run finished successfully",
+        "ts": "2026-03-06T23:07:32.848599+00:00"
+      },
+      {
+        "level": "info",
+        "message": "Tracker state changed to paused",
+        "ts": "2026-03-06T23:10:20.593775+00:00"
+      }
+    ],
+    "last_run_finished_at": "2026-03-06T23:07:32.848209+00:00",
+    "last_run_result": "ok",
+    "last_run_started_at": "2026-03-06T23:07:13.129878+00:00",
+    "last_run_summary": {
+      "checked_threads": 3,
+      "errors": [],
+      "finished_at": "2026-03-06T23:07:32.848209+00:00",
+      "reason": "toggle_running_immediate",
+      "requests_made": 7,
+      "started_at": "2026-03-06T23:07:13.775184+00:00",
+      "updated_threads": 2
+    },
+    "next_run_at": null
+  },
+  "threads": [
+    {
+      "created_at": "2026-03-02T10:01:11.407256+00:00",
+      "current_title": "Creely Blades Mako PG (Magnacut & G10)",
+      "current_title_color": "#1f77b4",
+      "id": "creely-blades---mako-pg-series---magnacu-36c5cbdbf858",
+      "include_in_adhoc": true,
+      "last_found_above": 18,
+      "last_found_page": 2,
+      "last_seen_at": "2026-03-06T23:10:14.122950+00:00",
+      "last_seen_title": "Creely Blades Mako PG (Magnacut & G10)",
+      "last_view_count": 438,
+      "order": 0,
+      "status": "active",
+      "subforum_key": "for-sale-fixed-blades-individual.891",
+      "thread_numeric_id": "2067309",
+      "title": "Creely Blades - Mako PG Series - Magnacut - LNIB",
+      "title_color_map": {
+        "Creely Blades Mako PG (Magnacut & G10)": "#1f77b4"
+      },
+      "title_history": [
+        "Creely Blades Mako PG (Magnacut & G10)"
+      ]
+    },
+    {
+      "created_at": "2026-03-02T09:58:29.028394+00:00",
+      "current_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+      "current_title_color": "#1f77b4",
+      "id": "2-microtechs---dirac--utx-70---lnib-b4d1536de3ed",
+      "include_in_adhoc": true,
+      "last_found_above": 3,
+      "last_found_page": 2,
+      "last_seen_at": "2026-03-06T23:10:19.499523+00:00",
+      "last_seen_title": "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB",
+      "last_view_count": 488,
+      "order": 1,
+      "status": "active",
+      "subforum_key": "for-sale-automatic-knives-individual.759",
+      "thread_numeric_id": "2067308",
+      "title": "2 Microtechs - Dirac & UTX-70 - LNIB",
+      "title_color_map": {
+        "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB": "#1f77b4"
+      },
+      "title_history": [
+        "(SOLD) 2 Microtechs - Dirac & UTX-70 - LNIB"
+      ]
+    },
+    {
+      "created_at": "2026-03-02T10:05:03.123950+00:00",
+      "id": "benchmade-mini-infidel---lnib-price-drop-affe654dd19a",
+      "include_in_adhoc": true,
+      "last_found_above": 6,
+      "last_found_page": 2,
+      "last_seen_at": "2026-03-02T16:43:47.045407+00:00",
+      "last_view_count": 314,
+      "order": 2,
+      "status": "paused",
+      "subforum_key": "for-sale-automatic-knives-individual.759",
+      "title": "Benchmade Mini Infidel - LNIB (PRICE DROP)",
+      "title_color_map": {},
+      "title_history": []
+    },
+    {
+      "created_at": "2026-03-02T10:05:49.490322+00:00",
+      "id": "flashlight---olight-baton-4-premium-edit-df58d17c255b",
+      "include_in_adhoc": true,
+      "last_found_above": 19,
+      "last_found_page": 2,
+      "last_seen_at": "2026-03-03T01:28:23.173714+00:00",
+      "last_view_count": 274,
+      "order": 3,
+      "status": "paused",
+      "subforum_key": "for-sale-gadgets-gear-individual.764",
+      "title": "Flashlight - Olight Baton 4 Premium Edition (OD Green) - New (sealed in box)",
+      "title_color_map": {},
+      "title_history": []
+    },
+    {
+      "created_at": "2026-03-02T10:06:57.869521+00:00",
+      "id": "spyderco-dodo---satin-m4--jade-g-10---ln-ead1efceee12",
+      "include_in_adhoc": true,
+      "order": 4,
+      "status": "active",
+      "subforum_key": "for-sale-folding-knives-individual.892",
+      "thread_numeric_id": "2066634",
+      "title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB (PRICE DROP)",
+      "title_color_map": {},
+      "title_history": []
+    }
+  ],
+  "ts": "2026-03-06T23:11:07.346743+00:00"
+}
