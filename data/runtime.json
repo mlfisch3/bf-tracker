@@ -1,5 +1,5 @@
 {
-  "current_action": "Fetching For Sale: Folding Knives (Individual) page 1",
+  "current_action": "paused",
   "events": [
     {
       "level": "info",
@@ -113,13 +113,13 @@
     },
     {
       "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-06T23:10:07.912622+00:00"
+      "message": "Tracker state changed to paused",
+      "ts": "2026-03-06T23:10:20.593775+00:00"
     }
   ],
   "last_run_finished_at": "2026-03-06T23:07:32.848209+00:00",
-  "last_run_result": "running",
-  "last_run_started_at": "2026-03-06T23:10:07.912613+00:00",
+  "last_run_result": "ok",
+  "last_run_started_at": "2026-03-06T23:07:13.129878+00:00",
   "last_run_summary": {
     "checked_threads": 3,
     "errors": [],
@@ -129,5 +129,5 @@
     "started_at": "2026-03-06T23:07:13.775184+00:00",
     "updated_threads": 2
   },
-  "next_run_at": "2026-03-06T23:08:02.848581+00:00"
+  "next_run_at": null
 }
