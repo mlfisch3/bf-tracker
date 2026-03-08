@@ -1,5 +1,6 @@
 {
   "global": {
+    "enable_process_logging": true,
     "max_delay_seconds": 3.0,
     "max_requests_per_minute": 30,
     "max_retries": 2,
@@ -82,6 +83,6 @@
     "kill_switch": false,
     "run_on_next": false,
     "start_immediately": true,
-    "state": "paused"
+    "state": "running"
   }
 }
