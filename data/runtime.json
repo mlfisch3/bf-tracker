@@ -139,12 +139,12 @@
     {
       "level": "info",
       "message": "Run started (refresh_thread_2066634-for-sale-folding-knives-individu-916adfcc859d)",
-      "ts": "2026-03-08T06:03:52.849226+00:00"
+      "ts": "2026-03-08T06:09:46.485721+00:00"
     }
   ],
   "last_run_finished_at": "2026-03-08T05:11:00.486784+00:00",
   "last_run_result": "running",
-  "last_run_started_at": "2026-03-08T06:03:52.849214+00:00",
+  "last_run_started_at": "2026-03-08T06:09:46.485708+00:00",
   "last_run_summary": {
     "checked_threads": 0,
     "errors": [],
