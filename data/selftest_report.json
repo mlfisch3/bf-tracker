@@ -7,10 +7,10 @@
       "ts": "2026-03-09T00:07:05.864232+00:00"
     },
     {
-      "action": "init",
-      "details": "Purging previous self-test traces",
+      "action": "abort_request",
+      "details": "Abort requested by user",
       "ok": true,
-      "ts": "2026-03-09T00:09:16.118437+00:00"
+      "ts": "2026-03-09T00:10:32.569486+00:00"
     }
   ],
   "schema_version": 1
