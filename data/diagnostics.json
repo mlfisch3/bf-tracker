@@ -1,11 +1,17 @@
 {
   "events": [
     {
-      "details": "Diagnostics snapshot captured",
+      "cmd": [
+        "ls",
+        "-la",
+        "/mount/src/bf-ui"
+      ],
+      "exit_code": 0,
       "ok": true,
-      "path": "data/diagnostics/snapshot_20260309_142237.json",
-      "ts": "2026-03-09T18:22:38.780149+00:00",
-      "type": "snapshot"
+      "path": "data/diagnostics/command_20260309_142258_ls_app.log",
+      "tmp_path": "/tmp/bf_diag_20260309_142258_ls_app.log",
+      "ts": "2026-03-09T18:22:59.281711+00:00",
+      "type": "command"
     }
   ],
   "schema_version": 1
