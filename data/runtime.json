@@ -1,5 +1,5 @@
 {
-  "current_action": "updating",
+  "current_action": "idle",
   "events": [
     {
       "level": "info",
@@ -605,19 +605,24 @@
       "level": "info",
       "message": "Run started (refresh_thread_2067309-for-sale-fixed-blades-individual-0166fce3b975)",
       "ts": "2026-03-09T20:10:26.127438+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-09T20:10:35.006195+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-09T20:09:25.109508+00:00",
-  "last_run_result": "running",
+  "last_run_finished_at": "2026-03-09T20:10:35.005780+00:00",
+  "last_run_result": "ok",
   "last_run_started_at": "2026-03-09T20:10:26.127423+00:00",
   "last_run_summary": {
-    "checked_threads": 3,
+    "checked_threads": 1,
     "errors": [],
-    "finished_at": "2026-03-09T20:09:25.109508+00:00",
-    "reason": "interval",
-    "requests_made": 1,
-    "started_at": "2026-03-09T20:09:23.417664+00:00",
-    "updated_threads": 3
+    "finished_at": "2026-03-09T20:10:35.005780+00:00",
+    "reason": "refresh_thread_2067309-for-sale-fixed-blades-individual-0166fce3b975",
+    "requests_made": 3,
+    "started_at": "2026-03-09T20:10:27.197908+00:00",
+    "updated_threads": 1
   },
-  "next_run_at": "2026-03-09T20:10:25.109832+00:00"
+  "next_run_at": "2026-03-09T20:11:35.006179+00:00"
 }
