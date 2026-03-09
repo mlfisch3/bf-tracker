@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "target": {
+    "thread_numeric_id": "2066634",
+    "subforum_key": "for-sale-folding-knives-individual.892",
+    "display_name": "Self-Test Target: Dodo"
+  },
+  "delay_seconds": 4,
+  "max_repair_attempts": 2
+}
