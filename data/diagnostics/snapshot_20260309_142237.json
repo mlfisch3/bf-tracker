@@ -1,0 +1,357 @@
+{
+  "cwd": "/mount/src/bf-ui",
+  "platform": "Linux-6.1.100+-x86_64-with-glibc2.41",
+  "python": "3.11.14",
+  "runtime_state": {
+    "current_action": "updating",
+    "selftest_stage": "aborted",
+    "selftest_status": "aborted",
+    "tracker_state": "running"
+  },
+  "tree": [
+    {
+      "depth": 0,
+      "path": "/mount/src",
+      "type": "dir"
+    },
+    {
+      "depth": 1,
+      "path": "/mount/src/bf-ui",
+      "type": "dir"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/.gitignore",
+      "size": 36,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/README.md",
+      "size": 868,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/app.py",
+      "size": 111643,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/requirements-dev.txt",
+      "size": 14,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/requirements.txt",
+      "size": 143,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/.github",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.github/workflows",
+      "type": "dir"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.github/workflows/ci.yml",
+      "size": 543,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.github/workflows/smoke.yml",
+      "size": 909,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/scripts",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/scripts/smoke_playwright.mjs",
+      "size": 1597,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/tests",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/tests/test_models.py",
+      "size": 217,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/tests/test_tracker_engine.py",
+      "size": 1091,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/.git",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/FETCH_HEAD",
+      "size": 85,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/HEAD",
+      "size": 21,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/ORIG_HEAD",
+      "size": 41,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/config",
+      "size": 260,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/description",
+      "size": 73,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/index",
+      "size": 1531,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/packed-refs",
+      "size": 112,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/branches",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/hooks",
+      "type": "dir"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/applypatch-msg.sample",
+      "size": 478,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/commit-msg.sample",
+      "size": 896,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/fsmonitor-watchman.sample",
+      "size": 4726,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/post-update.sample",
+      "size": 189,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/pre-applypatch.sample",
+      "size": 424,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/pre-commit.sample",
+      "size": 1649,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/pre-merge-commit.sample",
+      "size": 416,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/pre-push.sample",
+      "size": 1374,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/pre-rebase.sample",
+      "size": 4898,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/pre-receive.sample",
+      "size": 544,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/prepare-commit-msg.sample",
+      "size": 1492,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/push-to-checkout.sample",
+      "size": 2783,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/sendemail-validate.sample",
+      "size": 2308,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/hooks/update.sample",
+      "size": 3650,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/logs",
+      "type": "dir"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/logs/HEAD",
+      "size": 4769,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/refs",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/info",
+      "type": "dir"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/.git/info/exclude",
+      "size": 240,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.git/objects",
+      "type": "dir"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/.streamlit",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/.streamlit/secrets.toml",
+      "size": 171,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/tools",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/tools/run_tests.py",
+      "size": 2497,
+      "type": "file"
+    },
+    {
+      "depth": 2,
+      "path": "/mount/src/bf-ui/ui",
+      "type": "dir"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/ui/data_client.py",
+      "size": 498,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/ui/github_client.py",
+      "size": 3208,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/ui/models.py",
+      "size": 517,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/ui/tracker_engine.py",
+      "size": 20621,
+      "type": "file"
+    },
+    {
+      "depth": 3,
+      "path": "/mount/src/bf-ui/ui/__pycache__",
+      "type": "dir"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/ui/__pycache__/data_client.cpython-311.pyc",
+      "size": 1562,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/ui/__pycache__/github_client.cpython-311.pyc",
+      "size": 6204,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/ui/__pycache__/models.cpython-311.pyc",
+      "size": 1725,
+      "type": "file"
+    },
+    {
+      "depth": 4,
+      "path": "/mount/src/bf-ui/ui/__pycache__/tracker_engine.cpython-311.pyc",
+      "size": 26170,
+      "type": "file"
+    }
+  ],
+  "ts": "2026-03-09T18:22:37.396477+00:00"
+}
