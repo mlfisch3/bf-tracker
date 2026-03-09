@@ -9,6 +9,16 @@
       "ok": true,
       "remedy": null,
       "ts": "2026-03-09T20:16:08.610460+00:00"
+    },
+    {
+      "action": "init",
+      "details": "Purging previous self-test traces",
+      "expected": null,
+      "meta": {},
+      "observed": null,
+      "ok": true,
+      "remedy": null,
+      "ts": "2026-03-09T20:23:06.815123+00:00"
     }
   ],
   "schema_version": 1
