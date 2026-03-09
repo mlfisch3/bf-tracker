@@ -1,12 +1,12 @@
 {
-  "abort_requested": false,
+  "abort_requested": true,
   "last_error": null,
   "last_result": null,
-  "next_action_at": "2026-03-09T00:09:17.837824+00:00",
+  "next_action_at": "2026-03-09T00:07:05.864222+00:00",
   "repair_attempts": 0,
   "run_finished_at": null,
   "run_started_at": "2026-03-09T00:07:05.864205+00:00",
-  "stage": "update_1",
+  "stage": "init",
   "status": "running",
-  "thread_id": "selftest-2066634-for-sale-folding-knives-d3847cd330e7"
+  "thread_id": null
 }
