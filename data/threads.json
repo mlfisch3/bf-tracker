@@ -72,15 +72,26 @@
     },
     {
       "created_at": "2026-03-09T19:43:55.392103+00:00",
+      "current_title": "Creely Blades Mako PG (Magnacut & G10)",
+      "current_title_color": "#1f77b4",
       "display_name": "Creely Blades Mako PG (Magnacut & G10)",
       "id": "2067309-for-sale-fixed-blades-individual-0166fce3b975",
       "include_in_adhoc": false,
+      "last_found_above": 7,
+      "last_found_page": 3,
+      "last_seen_at": "2026-03-09T20:10:35.005748+00:00",
+      "last_seen_title": "Creely Blades Mako PG (Magnacut & G10)",
+      "last_view_count": 495,
       "order": 3,
       "status": "active",
       "subforum_key": "for-sale-fixed-blades-individual.891",
       "thread_numeric_id": "2067309",
-      "title_color_map": {},
-      "title_history": []
+      "title_color_map": {
+        "Creely Blades Mako PG (Magnacut & G10)": "#1f77b4"
+      },
+      "title_history": [
+        "Creely Blades Mako PG (Magnacut & G10)"
+      ]
     }
   ]
 }
