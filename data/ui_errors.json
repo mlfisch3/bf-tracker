@@ -314,6 +314,11 @@
       "error": "name 'parse_iso' is not defined",
       "traceback": "Traceback (most recent call last):\n  File \"/mount/src/bf-ui/app.py\", line 2005, in <module>\n    main()\n  File \"/mount/src/bf-ui/app.py\", line 1723, in main\n    process_selftest_tick()\n  File \"/mount/src/bf-ui/app.py\", line 947, in process_selftest_tick\n    next_action = parse_iso(selftest_runtime.get(\"next_action_at\"))\n                  ^^^^^^^^^\nNameError: name 'parse_iso' is not defined\n",
       "ts": "2026-03-09T00:07:34.164520+00:00"
+    },
+    {
+      "error": "name 'parse_iso' is not defined",
+      "traceback": "Traceback (most recent call last):\n  File \"/mount/src/bf-ui/app.py\", line 2005, in <module>\n    main()\n  File \"/mount/src/bf-ui/app.py\", line 1723, in main\n    process_selftest_tick()\n  File \"/mount/src/bf-ui/app.py\", line 947, in process_selftest_tick\n    next_action = parse_iso(selftest_runtime.get(\"next_action_at\"))\n                  ^^^^^^^^^\nNameError: name 'parse_iso' is not defined\n",
+      "ts": "2026-03-09T00:07:35.754892+00:00"
     }
   ]
 }
