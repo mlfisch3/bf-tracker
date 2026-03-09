@@ -23,19 +23,6 @@
       "title_history": [
         "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB"
       ]
-    },
-    {
-      "created_at": "2026-03-09T00:08:25.711634+00:00",
-      "display_name": "Self-Test Target: Dodo",
-      "id": "selftest-2066634-for-sale-folding-knives-d3847cd330e7",
-      "include_in_adhoc": false,
-      "is_self_test": true,
-      "order": 1,
-      "status": "paused",
-      "subforum_key": "for-sale-folding-knives-individual.892",
-      "thread_numeric_id": "2066634",
-      "title_color_map": {},
-      "title_history": []
     }
   ]
 }
