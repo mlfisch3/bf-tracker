@@ -2,29 +2,6 @@
   "schema_version": 1,
   "threads": [
     {
-      "created_at": "2026-03-08T04:03:03.379268+00:00",
-      "current_title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB",
-      "current_title_color": "#1f77b4",
-      "display_name": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB",
-      "id": "2066634-for-sale-folding-knives-individu-916adfcc859d",
-      "include_in_adhoc": false,
-      "last_found_above": 15,
-      "last_found_page": 14,
-      "last_seen_at": "2026-03-09T19:21:57.800210+00:00",
-      "last_seen_title": "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB",
-      "last_view_count": 635,
-      "order": 0,
-      "status": "active",
-      "subforum_key": "for-sale-folding-knives-individual.892",
-      "thread_numeric_id": "2066634",
-      "title_color_map": {
-        "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB": "#1f77b4"
-      },
-      "title_history": [
-        "Spyderco Dodo - Satin M4 & Jade G-10 - LNIB"
-      ]
-    },
-    {
       "created_at": "2026-03-09T17:57:14.452791+00:00",
       "current_title": "[WTS] Spyderco Delica Sprints and a Boker",
       "current_title_color": "#1f77b4",
@@ -33,10 +10,10 @@
       "include_in_adhoc": false,
       "last_found_above": 3,
       "last_found_page": 1,
-      "last_seen_at": "2026-03-09T19:21:57.800257+00:00",
+      "last_seen_at": "2026-03-09T19:22:18.588562+00:00",
       "last_seen_title": "[WTS] Spyderco Delica Sprints and a Boker",
       "last_view_count": 179,
-      "order": 1,
+      "order": 0,
       "status": "active",
       "subforum_key": "for-sale-folding-knives-individual.892",
       "thread_numeric_id": "2067971",
