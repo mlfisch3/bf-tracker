@@ -714,6 +714,11 @@
       "error": "409 Client Error: Conflict for url: https://api.github.com/repos/mlfisch3/bf-tracker/contents/data/threads.json",
       "traceback": "Traceback (most recent call last):\n  File \"/mount/src/bf-ui/app.py\", line 2586, in <module>\n    main()\n  File \"/mount/src/bf-ui/app.py\", line 2119, in main\n    process_selftest_tick()\n  File \"/mount/src/bf-ui/app.py\", line 1267, in process_selftest_tick\n    purge_selftest_traces()\n  File \"/mount/src/bf-ui/app.py\", line 1093, in purge_selftest_traces\n    github.put_file(\"data/threads.json\", threads_doc, \"Purge self-test thread\", threads_sha)\n  File \"/mount/src/bf-ui/ui/github_client.py\", line 64, in put_file\n    resp.raise_for_status()\n  File \"/home/adminuser/venv/lib/python3.11/site-packages/requests/models.py\", line 1024, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.github.com/repos/mlfisch3/bf-tracker/contents/data/threads.json\n",
       "ts": "2026-03-09T20:22:30.459796+00:00"
+    },
+    {
+      "error": "409 Client Error: Conflict for url: https://api.github.com/repos/mlfisch3/bf-tracker/contents/data/threads.json",
+      "traceback": "Traceback (most recent call last):\n  File \"/mount/src/bf-ui/app.py\", line 2586, in <module>\n    main()\n  File \"/mount/src/bf-ui/app.py\", line 2119, in main\n    process_selftest_tick()\n  File \"/mount/src/bf-ui/app.py\", line 1267, in process_selftest_tick\n    purge_selftest_traces()\n  File \"/mount/src/bf-ui/app.py\", line 1093, in purge_selftest_traces\n    github.put_file(\"data/threads.json\", threads_doc, \"Purge self-test thread\", threads_sha)\n  File \"/mount/src/bf-ui/ui/github_client.py\", line 64, in put_file\n    resp.raise_for_status()\n  File \"/home/adminuser/venv/lib/python3.11/site-packages/requests/models.py\", line 1024, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.github.com/repos/mlfisch3/bf-tracker/contents/data/threads.json\n",
+      "ts": "2026-03-09T20:22:45.425140+00:00"
     }
   ]
 }
