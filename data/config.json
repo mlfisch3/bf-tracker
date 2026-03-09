@@ -1,6 +1,6 @@
 {
   "global": {
-    "enable_process_logging": true,
+    "enable_process_logging": false,
     "max_delay_seconds": 3.0,
     "max_requests_per_minute": 30,
     "max_retries": 2,
