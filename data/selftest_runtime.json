@@ -1,12 +1,12 @@
 {
   "abort_requested": false,
-  "last_error": null,
+  "last_error": "update errors: [{'subforum_key': 'for-sale-folding-knives-individual.892', 'error': 'Search failed (https://www.bladeforums.com/search/?q=Self+Test+Target+Dodo&t=post&c%5Bchild_nodes%5D=1&c%5Bnodes%5D%5B0%5D=892&c%5Btitle_only%5D=1&o=relevance): 403 Client Error: Forbidden for url: https://www.bladeforums.com/search/?q=Self+Test+Target+Dodo&t=post&c%5Bchild_nodes%5D=1&c%5Bnodes%5D%5B0%5D=892&c%5Btitle_only%5D=1&o=relevance'}]",
   "last_result": null,
-  "next_action_at": "2026-03-09T20:43:38.765033+00:00",
-  "repair_attempts": 2,
-  "run_finished_at": null,
+  "next_action_at": "2026-03-09T20:43:22.603253+00:00",
+  "repair_attempts": 3,
+  "run_finished_at": "2026-03-09T20:43:42.285983+00:00",
   "run_started_at": "2026-03-09T20:16:08.610423+00:00",
-  "stage": "update_1",
-  "status": "running",
+  "stage": "failed",
+  "status": "failed",
   "thread_id": "selftest-2066634-for-sale-folding-knives-d3847cd330e7"
 }
