@@ -1,5 +1,5 @@
 {
-  "current_action": "idle",
+  "current_action": "updating",
   "events": [
     {
       "level": "info",
@@ -459,55 +459,20 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-09T19:53:17.081698+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:53:19.940121+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-09T19:54:31.087626+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:54:35.259489+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-09T19:55:46.225211+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:55:48.954161+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-09T19:57:01.242220+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:57:04.735618+00:00"
+      "ts": "2026-03-09T19:58:06.927452+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-09T19:57:04.735073+00:00",
-  "last_run_result": "ok",
-  "last_run_started_at": "2026-03-09T19:57:01.242203+00:00",
+  "last_run_finished_at": "2026-03-09T19:52:02.380731+00:00",
+  "last_run_result": "running",
+  "last_run_started_at": "2026-03-09T19:58:06.927437+00:00",
   "last_run_summary": {
     "checked_threads": 3,
     "errors": [],
-    "finished_at": "2026-03-09T19:57:04.735073+00:00",
+    "finished_at": "2026-03-09T19:52:02.380731+00:00",
     "reason": "interval",
     "requests_made": 1,
-    "started_at": "2026-03-09T19:57:02.230788+00:00",
+    "started_at": "2026-03-09T19:51:59.298867+00:00",
     "updated_threads": 3
   },
-  "next_run_at": "2026-03-09T19:58:04.735591+00:00"
+  "next_run_at": "2026-03-09T19:53:02.381141+00:00"
 }
