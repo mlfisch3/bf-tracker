@@ -1,5 +1,5 @@
 {
-  "current_action": "idle",
+  "current_action": "updating",
   "events": [
     {
       "level": "info",
@@ -299,55 +299,20 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-09T19:33:54.199773+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:33:58.461863+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-09T19:35:00.635905+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:35:03.304992+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-09T19:36:15.526168+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:36:19.888361+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-09T19:37:30.506425+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-09T19:37:34.350222+00:00"
+      "ts": "2026-03-09T19:38:06.658079+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-09T19:37:34.349819+00:00",
-  "last_run_result": "ok",
-  "last_run_started_at": "2026-03-09T19:37:30.506415+00:00",
+  "last_run_finished_at": "2026-03-09T19:32:28.048158+00:00",
+  "last_run_result": "running",
+  "last_run_started_at": "2026-03-09T19:38:06.658070+00:00",
   "last_run_summary": {
-    "checked_threads": 2,
+    "checked_threads": 1,
     "errors": [],
-    "finished_at": "2026-03-09T19:37:34.349819+00:00",
-    "reason": "interval",
+    "finished_at": "2026-03-09T19:32:28.048158+00:00",
+    "reason": "adhoc_all_active",
     "requests_made": 1,
-    "started_at": "2026-03-09T19:37:31.638051+00:00",
-    "updated_threads": 2
+    "started_at": "2026-03-09T19:32:25.814245+00:00",
+    "updated_threads": 1
   },
-  "next_run_at": "2026-03-09T19:38:34.350188+00:00"
+  "next_run_at": "2026-03-09T19:33:49.536077+00:00"
 }
