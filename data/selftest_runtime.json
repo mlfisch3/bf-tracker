@@ -2,11 +2,11 @@
   "abort_requested": false,
   "last_error": null,
   "last_result": null,
-  "next_action_at": null,
+  "next_action_at": "2026-03-09T20:13:15.565850+00:00",
   "repair_attempts": 0,
   "run_finished_at": null,
-  "run_started_at": null,
-  "stage": "idle",
-  "status": "idle",
+  "run_started_at": "2026-03-09T20:13:15.565836+00:00",
+  "stage": "init",
+  "status": "running",
   "thread_id": null
 }
