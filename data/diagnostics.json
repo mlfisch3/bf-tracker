@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "details": "Diagnostics snapshot captured",
+      "ok": true,
+      "path": "data/diagnostics/snapshot_20260309_142237.json",
+      "ts": "2026-03-09T18:22:38.780149+00:00",
+      "type": "snapshot"
+    }
+  ],
+  "schema_version": 1
+}
