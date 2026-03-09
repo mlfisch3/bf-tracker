@@ -5,6 +5,12 @@
       "details": "Self-test run initiated",
       "ok": true,
       "ts": "2026-03-09T00:07:05.864232+00:00"
+    },
+    {
+      "action": "abort_request",
+      "details": "Abort requested by user",
+      "ok": true,
+      "ts": "2026-03-09T00:08:43.393301+00:00"
     }
   ],
   "schema_version": 1
