@@ -1,0 +1,11 @@
+{
+  "logs": [
+    {
+      "action": "start",
+      "details": "Self-test run initiated",
+      "ok": true,
+      "ts": "2026-03-09T00:07:05.864232+00:00"
+    }
+  ],
+  "schema_version": 1
+}
