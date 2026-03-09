@@ -1,5 +1,5 @@
 {
-  "abort_requested": false,
+  "abort_requested": true,
   "last_error": null,
   "last_result": null,
   "next_action_at": "2026-03-09T00:07:05.864222+00:00",
