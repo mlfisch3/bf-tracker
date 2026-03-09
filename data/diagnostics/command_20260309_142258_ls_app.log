@@ -1,0 +1,24 @@
+ts=2026-03-09T18:22:58.192437+00:00
+cmd=ls -la /mount/src/bf-ui
+exit_code=0
+
+=== STDOUT ===
+total 164
+drwxrwxr-x 9 appuser appuser   4096 Mar  9 00:55 .
+drwxrwxrwx 3     770 appuser   4096 Mar  4 04:03 ..
+drwxrwxr-x 8 appuser appuser   4096 Mar  9 00:55 .git
+drwxrwxr-x 3 appuser appuser   4096 Mar  4 04:03 .github
+-rw-rw-r-- 1 appuser appuser     36 Mar  9 00:50 .gitignore
+drwxrwxr-x 2 appuser appuser   4096 Mar  9 00:55 .streamlit
+-rw-rw-r-- 1 appuser appuser    868 Mar  9 00:55 README.md
+-rw-rw-r-- 1 appuser appuser 111643 Mar  9 00:55 app.py
+-rw-rw-r-- 1 appuser appuser     14 Mar  9 00:50 requirements-dev.txt
+-rw-rw-r-- 1 appuser appuser    143 Mar  9 00:50 requirements.txt
+drwxrwxr-x 2 appuser appuser   4096 Mar  9 00:55 scripts
+drwxrwxr-x 2 appuser appuser   4096 Mar  9 00:55 tests
+drwxrwxr-x 2 appuser appuser   4096 Mar  9 00:50 tools
+drwxrwxr-x 3 appuser appuser   4096 Mar  9 00:50 ui
+
+
+=== STDERR ===
+
