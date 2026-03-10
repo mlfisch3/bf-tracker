@@ -1,11 +1,6 @@
 {
-  "current_action": "idle",
+  "current_action": "updating",
   "events": [
-    {
-      "level": "info",
-      "message": "Tracker state changed to running",
-      "ts": "2026-03-04T07:18:32.581710+00:00"
-    },
     {
       "level": "info",
       "message": "Run started (start_immediate)",
@@ -1000,11 +995,16 @@
       "level": "info",
       "message": "Run finished successfully",
       "ts": "2026-03-10T01:00:30.837539+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T01:01:39.020247+00:00"
     }
   ],
   "last_run_finished_at": "2026-03-10T01:00:30.837216+00:00",
-  "last_run_result": "ok",
-  "last_run_started_at": "2026-03-10T01:00:22.052455+00:00",
+  "last_run_result": "running",
+  "last_run_started_at": "2026-03-10T01:01:39.020235+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
