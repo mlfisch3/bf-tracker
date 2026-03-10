@@ -4,6 +4,36 @@
     {
       "level": "info",
       "message": "Run started (interval)",
+      "ts": "2026-03-10T14:04:58.864593+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T14:05:07.522913+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T14:07:13.837831+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T14:07:25.546044+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T14:09:13.826787+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T14:09:26.378471+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
       "ts": "2026-03-10T14:11:13.835860+00:00"
     },
     {
@@ -964,55 +994,25 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-10T17:24:27.411624+00:00"
+      "ts": "2026-03-10T17:29:15.233004+00:00"
     },
     {
       "level": "info",
       "message": "Run finished successfully",
-      "ts": "2026-03-10T17:24:37.478647+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T17:25:44.803185+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-10T17:25:56.081467+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T17:27:09.857179+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-10T17:27:19.907065+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T17:29:09.874615+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-10T17:29:18.749770+00:00"
+      "ts": "2026-03-10T17:29:24.596939+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-10T17:29:18.749259+00:00",
+  "last_run_finished_at": "2026-03-10T17:29:24.596517+00:00",
   "last_run_result": "ok",
-  "last_run_started_at": "2026-03-10T17:29:09.874594+00:00",
+  "last_run_started_at": "2026-03-10T17:29:15.232986+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-10T17:29:18.749259+00:00",
+    "finished_at": "2026-03-10T17:29:24.596517+00:00",
     "reason": "interval",
     "requests_made": 4,
-    "started_at": "2026-03-10T17:29:10.933818+00:00",
+    "started_at": "2026-03-10T17:29:16.172210+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-10T17:30:18.749754+00:00"
+  "next_run_at": "2026-03-10T17:30:24.596923+00:00"
 }
