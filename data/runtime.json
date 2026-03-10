@@ -1,11 +1,6 @@
 {
-  "current_action": "updating",
+  "current_action": "idle",
   "events": [
-    {
-      "level": "info",
-      "message": "Run started (refresh_thread_2067309-for-sale-fixed-blades-individual-0166fce3b975)",
-      "ts": "2026-03-09T20:09:29.866520+00:00"
-    },
     {
       "level": "info",
       "message": "Run started (refresh_thread_2067309-for-sale-fixed-blades-individual-0166fce3b975)",
@@ -1000,19 +995,24 @@
       "level": "info",
       "message": "Run started (interval)",
       "ts": "2026-03-10T04:56:10.066340+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T04:56:19.423787+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-10T04:54:20.043688+00:00",
-  "last_run_result": "running",
+  "last_run_finished_at": "2026-03-10T04:56:19.423381+00:00",
+  "last_run_result": "ok",
   "last_run_started_at": "2026-03-10T04:56:10.066320+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-10T04:54:20.043688+00:00",
+    "finished_at": "2026-03-10T04:56:19.423381+00:00",
     "reason": "interval",
     "requests_made": 4,
-    "started_at": "2026-03-10T04:54:10.842767+00:00",
+    "started_at": "2026-03-10T04:56:10.792160+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-10T04:55:20.045337+00:00"
+  "next_run_at": "2026-03-10T04:57:19.423769+00:00"
 }
