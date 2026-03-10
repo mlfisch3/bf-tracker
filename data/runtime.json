@@ -1,11 +1,6 @@
 {
-  "current_action": "updating",
+  "current_action": "idle",
   "events": [
-    {
-      "level": "info",
-      "message": "Run started (refresh_thread_2066634-for-sale-folding-knives-individu-916adfcc859d)",
-      "ts": "2026-03-08T06:09:46.485721+00:00"
-    },
     {
       "level": "info",
       "message": "Run started (refresh_thread_2066634-for-sale-folding-knives-individu-916adfcc859d)",
@@ -1000,19 +995,24 @@
       "level": "info",
       "message": "Run started (interval)",
       "ts": "2026-03-10T03:25:10.265123+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T03:25:20.894544+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-10T03:23:18.840983+00:00",
-  "last_run_result": "running",
+  "last_run_finished_at": "2026-03-10T03:25:20.894145+00:00",
+  "last_run_result": "ok",
   "last_run_started_at": "2026-03-10T03:25:10.265113+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-10T03:23:18.840983+00:00",
+    "finished_at": "2026-03-10T03:25:20.894145+00:00",
     "reason": "interval",
     "requests_made": 4,
-    "started_at": "2026-03-10T03:23:11.118569+00:00",
+    "started_at": "2026-03-10T03:25:11.329901+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-10T03:24:18.841402+00:00"
+  "next_run_at": "2026-03-10T03:26:20.894530+00:00"
 }
