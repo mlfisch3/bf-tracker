@@ -4,6 +4,26 @@
     {
       "level": "info",
       "message": "Run finished successfully",
+      "ts": "2026-03-10T00:11:21.464952+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T00:13:10.100450+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T00:13:22.014043+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T00:15:10.175894+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
       "ts": "2026-03-10T00:15:19.894710+00:00"
     },
     {
@@ -979,40 +999,20 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-10T05:40:10.034070+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-10T05:40:19.441208+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T05:42:10.331646+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-10T05:42:20.105603+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T05:44:10.021026+00:00"
+      "ts": "2026-03-10T05:44:15.245613+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-10T05:42:20.105108+00:00",
+  "last_run_finished_at": "2026-03-10T05:38:20.803674+00:00",
   "last_run_result": "running",
-  "last_run_started_at": "2026-03-10T05:44:10.021016+00:00",
+  "last_run_started_at": "2026-03-10T05:44:15.245602+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-10T05:42:20.105108+00:00",
+    "finished_at": "2026-03-10T05:38:20.803674+00:00",
     "reason": "interval",
     "requests_made": 4,
-    "started_at": "2026-03-10T05:42:11.150846+00:00",
+    "started_at": "2026-03-10T05:38:10.779434+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-10T05:43:20.105588+00:00"
+  "next_run_at": "2026-03-10T05:39:20.804182+00:00"
 }
