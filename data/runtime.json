@@ -1,5 +1,5 @@
 {
-  "current_action": "idle",
+  "current_action": "updating",
   "events": [
     {
       "level": "info",
@@ -820,11 +820,16 @@
       "level": "info",
       "message": "Run finished successfully",
       "ts": "2026-03-10T00:11:21.464952+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T00:13:10.100450+00:00"
     }
   ],
   "last_run_finished_at": "2026-03-10T00:11:21.464492+00:00",
-  "last_run_result": "ok",
-  "last_run_started_at": "2026-03-10T00:11:10.158011+00:00",
+  "last_run_result": "running",
+  "last_run_started_at": "2026-03-10T00:13:10.100438+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
