@@ -1,6 +1,21 @@
 {
-  "current_action": "updating",
+  "current_action": "idle",
   "events": [
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T19:22:09.917294+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T19:22:19.461387+00:00"
+    },
+    {
+      "level": "info",
+      "message": "Run started (interval)",
+      "ts": "2026-03-10T19:24:09.835750+00:00"
+    },
     {
       "level": "info",
       "message": "Run finished successfully",
@@ -979,40 +994,25 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-10T22:44:12.727979+00:00"
+      "ts": "2026-03-10T22:47:59.901818+00:00"
     },
     {
       "level": "info",
       "message": "Run finished successfully",
-      "ts": "2026-03-10T22:44:24.987229+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T22:46:12.716965+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-10T22:46:26.148091+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run started (interval)",
-      "ts": "2026-03-10T22:48:12.749783+00:00"
+      "ts": "2026-03-10T22:48:10.949286+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-10T22:46:26.147424+00:00",
-  "last_run_result": "running",
-  "last_run_started_at": "2026-03-10T22:48:12.749767+00:00",
+  "last_run_finished_at": "2026-03-10T22:48:10.948883+00:00",
+  "last_run_result": "ok",
+  "last_run_started_at": "2026-03-10T22:47:59.901808+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-10T22:46:26.147424+00:00",
+    "finished_at": "2026-03-10T22:48:10.948883+00:00",
     "reason": "interval",
     "requests_made": 5,
-    "started_at": "2026-03-10T22:46:13.628958+00:00",
+    "started_at": "2026-03-10T22:48:00.659928+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-10T22:47:26.148061+00:00"
+  "next_run_at": "2026-03-10T22:49:10.949271+00:00"
 }
