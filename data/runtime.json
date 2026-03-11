@@ -994,25 +994,25 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-11T07:28:01.631779+00:00"
+      "ts": "2026-03-11T07:28:09.659488+00:00"
     },
     {
       "level": "info",
       "message": "Run finished successfully",
-      "ts": "2026-03-11T07:28:13.444728+00:00"
+      "ts": "2026-03-11T07:28:22.020788+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-11T07:28:13.444360+00:00",
+  "last_run_finished_at": "2026-03-11T07:28:22.020366+00:00",
   "last_run_result": "ok",
-  "last_run_started_at": "2026-03-11T07:28:01.631765+00:00",
+  "last_run_started_at": "2026-03-11T07:28:09.659477+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-11T07:28:13.444360+00:00",
+    "finished_at": "2026-03-11T07:28:22.020366+00:00",
     "reason": "interval",
     "requests_made": 5,
-    "started_at": "2026-03-11T07:28:02.391822+00:00",
+    "started_at": "2026-03-11T07:28:10.539690+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-11T07:29:13.444711+00:00"
+  "next_run_at": "2026-03-11T07:29:22.020773+00:00"
 }
