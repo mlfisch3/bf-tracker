@@ -1,6 +1,11 @@
 {
-  "current_action": "idle",
+  "current_action": "updating",
   "events": [
+    {
+      "level": "info",
+      "message": "Run finished successfully",
+      "ts": "2026-03-10T20:16:23.212782+00:00"
+    },
     {
       "level": "info",
       "message": "Run started (interval)",
@@ -994,25 +999,20 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-11T03:38:01.256135+00:00"
-    },
-    {
-      "level": "info",
-      "message": "Run finished successfully",
-      "ts": "2026-03-11T03:38:13.462153+00:00"
+      "ts": "2026-03-11T03:39:09.772066+00:00"
     }
   ],
-  "last_run_finished_at": "2026-03-11T03:38:13.461821+00:00",
-  "last_run_result": "ok",
-  "last_run_started_at": "2026-03-11T03:38:01.256122+00:00",
+  "last_run_finished_at": "2026-03-11T03:36:01.865049+00:00",
+  "last_run_result": "running",
+  "last_run_started_at": "2026-03-11T03:39:09.772056+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
-    "finished_at": "2026-03-11T03:38:13.461821+00:00",
+    "finished_at": "2026-03-11T03:36:01.865049+00:00",
     "reason": "interval",
     "requests_made": 5,
-    "started_at": "2026-03-11T03:38:02.219577+00:00",
+    "started_at": "2026-03-11T03:35:48.799524+00:00",
     "updated_threads": 4
   },
-  "next_run_at": "2026-03-11T03:39:13.462127+00:00"
+  "next_run_at": "2026-03-11T03:37:01.865343+00:00"
 }
