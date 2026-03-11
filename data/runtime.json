@@ -999,12 +999,12 @@
     {
       "level": "info",
       "message": "Run started (interval)",
-      "ts": "2026-03-11T21:45:11.658257+00:00"
+      "ts": "2026-03-11T21:45:26.748624+00:00"
     }
   ],
   "last_run_finished_at": "2026-03-11T20:28:16.029031+00:00",
   "last_run_result": "running",
-  "last_run_started_at": "2026-03-11T21:45:11.658244+00:00",
+  "last_run_started_at": "2026-03-11T21:45:26.748614+00:00",
   "last_run_summary": {
     "checked_threads": 4,
     "errors": [],
